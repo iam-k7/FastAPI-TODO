@@ -9,21 +9,14 @@ This project is made for learning CRUD operations (Create, Read, Update, Delete)
 
 FastAPI-TODO/
 │
-├── main.py                # Entry point - runs the FastAPI app
-│
-├── database.py            # Database setup (SQLAlchemy + PostgreSQL connection)
-│
-├── models.py              # SQLAlchemy ORM models (Todo table)
-│
-├── schemas.py             # Pydantic models (for request/response validation)
-│
-├── crud.py                # All database operations (create, read, update, delete)
-│
-├── requirements.txt       # List of dependencies
-│
-├── README.md              # Project documentation
-│
-└── __pycache__/           # (auto-created by Python)
+├── main.py          → Runs the FastAPI app (main file)
+├── database.py      → Database connection setup
+├── models.py        → Defines Todo table (database model)
+├── schemas.py       → Defines request & response models
+├── crud.py          → Handles Create, Read, Update, Delete functions
+├── requirements.txt → All required Python packages
+├── README.md        → Project details and setup guide
+└── __pycache__/     → Auto-created by Python (ignore)
 
 ---
 
@@ -63,7 +56,7 @@ FastAPI-TODO/
    pydantic
    psycopg2-binary
 
-4.**How to Run**
-```bash
+4. **How to Run**
+   ```bash
    uvicorn main:app --reload
 
