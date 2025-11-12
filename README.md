@@ -22,7 +22,7 @@ This project is made for learning CRUD operations (Create, Read, Update, Delete)
 
 ## ⚙️ Setup Instructions
 
- **Project Structure**
+0. **Project Structure**
    ```bash
    FastAPI-TODO/
     │
