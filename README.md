@@ -54,7 +54,7 @@ This project is made for learning CRUD operations (Create, Read, Update, Delete)
    pydantic
    psycopg2-binary
 
-4. **How to Run**
+4. **Run Command**
    ```bash
    uvicorn main:app --reload
 
