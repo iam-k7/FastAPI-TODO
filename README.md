@@ -5,21 +5,6 @@ This project is made for learning CRUD operations (Create, Read, Update, Delete)
 
 ---
 
-## 📂 Project Structure
-    ```bash
-    FastAPI-TODO/
-    │
-    ├── main.py          → Runs the FastAPI app (main file)
-    ├── database.py      → Database connection setup
-    ├── models.py        → Defines Todo table (database model)
-    ├── schemas.py       → Defines request & response models
-    ├── crud.py          → Handles Create, Read, Update, Delete functions
-    ├── requirements.txt → All required Python packages
-    ├── README.md        → Project details and setup guide
-    └── __pycache__/     → Auto-created by Python (ignore)
-
----
-
 ## 🚀 Features
 - Add new todos  
 - Get all todos or a single todo  
@@ -36,6 +21,19 @@ This project is made for learning CRUD operations (Create, Read, Update, Delete)
 ---
 
 ## ⚙️ Setup Instructions
+
+ **Project Structure**
+   ```bash
+   FastAPI-TODO/
+    │
+    ├── main.py          → Runs the FastAPI app (main file)
+    ├── database.py      → Database connection setup
+    ├── models.py        → Defines Todo table (database model)
+    ├── schemas.py       → Defines request & response models
+    ├── crud.py          → Handles Create, Read, Update, Delete functions
+    ├── requirements.txt → All required Python packages
+    ├── README.md        → Project details and setup guide
+    └── __pycache__/     → Auto-created by Python (ignore)
 
 1. **Clone the repo**
    ```bash
